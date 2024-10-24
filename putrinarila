@@ -1,0 +1,20 @@
+class Karyawan{
+void methodPertama(){
+String name ="putri haechan";
+int age =21;
+double tinggi= 165;
+
+print("NAMA: $name\n Umur: $age\n Tinggi: $tinggi cm\n");}
+
+void methodKedua () {
+String perkerjaan ="IT Auditor";
+int pengalamankerja= 5;
+double gaji=25900000;
+print("pekerjaan: $perkerjaan\n pengalaman: $pengalamankerja tahun\n gaji: $gaji IDR\n");
+}
+}
+void main(){
+Karyawan karyawan1 = Karyawan(); 
+karyawan1.methodPertama();
+karyawan1.methodKedua();
+}
